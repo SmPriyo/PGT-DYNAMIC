@@ -6,10 +6,10 @@ on:
       types: [started]
 
 env:
-  ROM_URL: https://android.googleapis.com/packages/ota-api/package/d79c90d8f94a249e0e91726c89d1460478487a2a.zip
-  ROM_NAME: VOS
-  FZIPNAME: d79c90d8f94a249e0e91726c89d1460478487a2a.zip
-  ZIP_NAME: VOS-Aris-@PriyoGSI-14-01-2021
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2170PU_11_OTA_0250_all_MsShTDdtOGAi.ozip
+  ROM_NAME: ColorOS:RealmeUI
+  FZIPNAME: RMX2170PU_11_OTA_0250_all_MsShTDdtOGAi.ozip
+  ZIP_NAME: Realme-RM7Pro-@PriyoGSI-14-01-2021
   TZ: Asia/Bangladesh
   SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
