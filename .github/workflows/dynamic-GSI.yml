@@ -1,13 +1,17 @@
-name: Building Dynamic GSI..
-
-on: [push]
+name: TIME TO BUILD...
+on: 
+  #releasepush:
+    #pushbuild
+  watch: 
+      types: [started]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/RevengeOS-4.0-R-OFFICIAL-phoenix-20201202-0537.zip
+  ROM_URL: https://pdrive.priyo.workers.dev/0://crDroidAndroid-11.0-20210110-phoenix-v7.2.zip
   ROM_NAME: Generic
-  FZIPNAME: RevengeOS-4.0-R-OFFICIAL-phoenix-20201202-0537.zip
-  ZIP_NAME: Generic_dynamic
+  FZIPNAME: crDroidAndroid-11.0-20210110-phoenix-v7.2.zip
+  ZIP_NAME: crDroidAndroid-phoenix-@PriyoGSI-13-01-2021
   TZ: Asia/Kolkata
+  SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -65,7 +69,7 @@ jobs:
               expect \"sftp> \"
               send \"cd ${{ secrets.SFDIR }}\r\"
               set timeout -1
-              send \"put $ZIP_NAME-GSI-Aonly.7z\r\"
+              send \"put $ZIP_NAME-GSI-Aonly-priyogsi.7z\r\"
               expect \"Uploading\"
               expect \"100%\"
               expect \"sftp>\"
@@ -82,7 +86,7 @@ jobs:
               expect \"sftp> \"
               send \"cd ${{ secrets.SFDIR }}\r\"
               set timeout -1
-              send \"put $ZIP_NAME-GSI-AB.7z\r\"
+              send \"put $ZIP_NAME-GSI-AB-priyogsi.7z\r\"
               expect \"Uploading\"
               expect \"100%\"
               expect \"sftp>\"
