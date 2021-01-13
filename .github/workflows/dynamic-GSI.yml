@@ -1,4 +1,4 @@
-name: TIME TO BUILD...
+name: TIME TO BUILD GSI...
 on: 
   #releasepush:
     #pushbuild
@@ -6,15 +6,15 @@ on:
       types: [started]
 
 env:
-  ROM_URL: https://pdrive.priyo.workers.dev/0://crDroidAndroid-11.0-20210110-phoenix-v7.2.zip
-  ROM_NAME: Generic
-  FZIPNAME: crDroidAndroid-11.0-20210110-phoenix-v7.2.zip
-  ZIP_NAME: crDroidAndroid-phoenix-@PriyoGSI-13-01-2021
+  ROM_URL: https://android.googleapis.com/packages/ota-api/package/d79c90d8f94a249e0e91726c89d1460478487a2a.zip
+  ROM_NAME: VOS
+  FZIPNAME: d79c90d8f94a249e0e91726c89d1460478487a2a.zip
+  ZIP_NAME: VOS-Aris-@PriyoGSI-14-01-2021
   TZ: Asia/Bangladesh
   SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
 
     steps:
        - name: Checkout
@@ -36,7 +36,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/Area69Lab/ErfanGSIs.git &> /dev/null
+         run: git clone --recurse-submodules https://github.com/Priiiyo/PGTools-ErfanGSIs ErfanGSIs &> /dev/null
        
        - name: Setting up ErfanGSI requirements
          run: |
