@@ -10,7 +10,7 @@ env:
   ROM_NAME: Generic
   FZIPNAME: crDroidAndroid-11.0-20210110-phoenix-v7.2.zip
   ZIP_NAME: crDroidAndroid-phoenix-@PriyoGSI-13-01-2021
-  TZ: Asia/Kolkata
+  TZ: Asia/Bangladesh
   SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
   build:
