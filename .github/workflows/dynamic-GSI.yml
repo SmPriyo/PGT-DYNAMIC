@@ -6,10 +6,10 @@ on:
       types: [started]
 
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2170PU_11_OTA_0250_all_MsShTDdtOGAi.ozip
-  ROM_NAME: ColorOS:RealmeUI
-  FZIPNAME: RMX2170PU_11_OTA_0250_all_MsShTDdtOGAi.ozip
-  ZIP_NAME: Realme-RM7Pro-@PriyoGSI-14-01-2021
+  ROM_URL: http://bigota.d.miui.com/V12.1.1.0.RFNMIXM/miui_TOCOGlobal_V12.1.1.0.RFNMIXM_2ea6513d0f_11.0.zip
+  ROM_NAME: MIUIDebloat
+  FZIPNAME: miui_TOCOGlobal_V12.1.1.0.RFNMIXM_2ea6513d0f_11.0.zip
+  ZIP_NAME: MIUIDebloat-MN10Lite-@PriyoGSI-18-01-2021
   TZ: Asia/Bangladesh
   SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
@@ -36,7 +36,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/Priiiyo/PGTools-ErfanGSIs ErfanGSIs &> /dev/null
+         run: git clone --recurse-submodules https://github.com/Priiiyo/ErfanGSIs &> /dev/null
        
        - name: Setting up ErfanGSI requirements
          run: |
