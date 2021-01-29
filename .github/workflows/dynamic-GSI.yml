@@ -1,4 +1,4 @@
-name: TIME TO BUILD GSI...
+name: TIME TO BUILD GSI..
 on: 
   #releasepush:
     #pushbuild
@@ -69,7 +69,7 @@ jobs:
               expect \"sftp> \"
               send \"${{ secrets.SFDIR }}\r\"
               set timeout -1
-              send \"put $ZIP_NAME-GSI-Aonly-priyogsi.7z\r\"
+              send \"put $ZIP_NAME-GSI-Aonly.7z\r\"
               expect \"Uploading\"
               expect \"100%\"
               expect \"sftp>\"
@@ -86,7 +86,7 @@ jobs:
               expect \"sftp> \"
               send \"${{ secrets.SFDIR }}\r\"
               set timeout -1
-              send \"put $ZIP_NAME-GSI-AB-priyogsi.7z\r\"
+              send \"put $ZIP_NAME-GSI-AB.7z\r\"
               expect \"Uploading\"
               expect \"100%\"
               expect \"sftp>\"
