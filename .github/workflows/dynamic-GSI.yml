@@ -6,10 +6,10 @@ on:
       types: [started]
 
 env:
-  ROM_URL: http://bigota.d.miui.com/V12.1.1.0.RFNMIXM/miui_TOCOGlobal_V12.1.1.0.RFNMIXM_2ea6513d0f_11.0.zip
-  ROM_NAME: MIUIDebloat
-  FZIPNAME: miui_TOCOGlobal_V12.1.1.0.RFNMIXM_2ea6513d0f_11.0.zip
-  ZIP_NAME: MIUIDebloat-MN10Lite-@PriyoGSI-18-01-2021
+  ROM_URL: https://pdrive.priyo.workers.dev/0://OnePlus7TProOxygen_13.W.09_OTA_009_all_2010191130_ac06386.zip
+  ROM_NAME: OxygenOS
+  FZIPNAME: OnePlus7TProOxygen_13.W.09_OTA_009_all_2010191130_ac06386.zip
+  ZIP_NAME: OxygenOS-OP7TPro-@PriyoGSI-29-01-2021
   TZ: Asia/Bangladesh
   SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
