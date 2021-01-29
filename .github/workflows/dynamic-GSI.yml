@@ -67,7 +67,7 @@ jobs:
               expect \"Password\"        
               send \"${{ secrets.SFPASS }}\r\"
               expect \"sftp> \"
-              send \"cd ${{ secrets.SFDIR }}\r\"
+              send \"${{ secrets.SFDIR }}\r\"
               set timeout -1
               send \"put $ZIP_NAME-GSI-Aonly-priyogsi.7z\r\"
               expect \"Uploading\"
@@ -84,7 +84,7 @@ jobs:
               expect \"Password\"        
               send \"${{ secrets.SFPASS }}\r\"
               expect \"sftp> \"
-              send \"cd ${{ secrets.SFDIR }}\r\"
+              send \"${{ secrets.SFDIR }}\r\"
               set timeout -1
               send \"put $ZIP_NAME-GSI-AB-priyogsi.7z\r\"
               expect \"Uploading\"
