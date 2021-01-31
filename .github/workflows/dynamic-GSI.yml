@@ -6,10 +6,10 @@ on:
       types: [started]
 
 env:
-  ROM_URL: http://otafsg-cost-az.coloros.com/OnePlus7TPro/OnePlus7TProOxygen_14.I.22_GLO_022_2101280017/patch/amazone2/GLO/OnePlus7TProOxygen/OnePlus7TProOxygen_14.I.22_GLO_022_2101280017/OnePlus7TProOxygen_14.I.22_OTA_022_all_2101280017_db37f3de5c9198.zip
+  ROM_URL: http://otafsg-cost-az.coloros.com/OnePlus7T/OnePlus7TOxygen_14.I.22_GLO_022_2101280011/patch/amazone2/GLO/OnePlus7TOxygen/OnePlus7TOxygen_14.I.22_GLO_022_2101280011/OnePlus7TOxygen_14.I.22_OTA_022_all_2101280011_4fa669ae8df1c28.zip
   ROM_NAME: OxygenOS
-  FZIPNAME: OnePlus7TProOxygen_14.I.22_OTA_022_all_2101280017_db37f3de5c9198.zip
-  ZIP_NAME: OxygenOS-OP7TPro-@PriyoGSI-31-01-2021
+  FZIPNAME: OnePlus7TOxygen_14.I.22_OTA_022_all_2101280011_4fa669ae8df1c28.zip
+  ZIP_NAME: OxygenOS-OP7T-@PriyoGSI-31-01-2021
   TZ: Asia/Bangladesh
   SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
