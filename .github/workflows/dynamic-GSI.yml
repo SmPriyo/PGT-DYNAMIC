@@ -6,10 +6,10 @@ on:
       types: [started]
 
 env:
-  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus7Oxygen/OnePlus7Oxygen_13.W.45_GLO_045_2010191035/OnePlus7Oxygen_13.W.45_OTA_045_all_2010191035_0b7a.zip
+  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/NordOxygen/NordOxygen_14.X.05_GLO_0050_2101292335/NordOxygen_14.X.05_OTA_0050_all_2101292335_1996fb78c.zip
   ROM_NAME: OxygenOS
-  FZIPNAME: OnePlus7Oxygen_13.W.45_GLO_045_2010191035/OnePlus7Oxygen_13.W.45_OTA_045_all_2010191035_0b7a.zip
-  ZIP_NAME: OxygenOS-OP7-@PriyoGSI-02-02-2021
+  FZIPNAME: NordOxygen_14.X.05_GLO_0050_2101292335/NordOxygen_14.X.05_OTA_0050_all_2101292335_1996fb78c.zip
+  ZIP_NAME: OxygenOS-Nord-@PriyoGSI-07-02-2021
   TZ: Asia/Bangladesh
   SFDIR: cd /home/pfs/project/priyogsis/PriyoFiles
 jobs:
